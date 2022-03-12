@@ -1,0 +1,68 @@
+.css-navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    z-index: 10;
+
+}
+.css-navbar-container{
+    position: relative;
+    height: 100%;
+  
+}
+.css-hamburger{
+    font-size: 40px;
+    color: #FFD700;
+    position: absolute;
+    right: 20px;
+    z-index: 10;
+}
+.css-nav-menu{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    right: -100%;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    
+
+}
+.css-nav-menu.active{
+    display: flex;
+    flex-direction: column;
+    right:0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index:  9;
+    height: 100%;
+}
+ 
+.css-title-Home,
+.css-title-Skills{
+    text-decoration: none;
+
+}
+
+.nav-item{
+    font-size: 5vh;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item :hover{
+    background-color: rgb(112, 112, 112);
+    transition: all 0.2s ease-out;
+    border-radius: 5px;
+ 
+}
+

@@ -1,0 +1,47 @@
+.css-story{
+    margin-top: 5vh;
+    position: relative;
+    background-image: url(./images/002.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-story-btn.active {
+    color: #FFD700;
+    font-size: 6vh;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    width: 60%;
+    text-align: center;
+}
+.css-story-btn{
+    color: #FFD700;
+    font-size: 3vh;
+
+}
+.css-story-btn.active:hover{
+   
+    text-shadow: 0.1em 0em 0.2em white;
+}
+.css-inner-story{
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: white;
+    width: 100vw;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+
+.css-inner-story.active{
+    opacity: 1;
+    transition: all 0.2s ease;
+    width: 80vw;
+    background-color: rgba(75, 75, 75, 0.8);
+}

@@ -1,0 +1,18 @@
+.css-footer{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.css-footer a {
+    text-decoration: none;
+    color: white;
+    vertical-align: baseline;
+}

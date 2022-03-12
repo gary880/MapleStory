@@ -1,0 +1,112 @@
+.css-banner {
+    position: relative;
+    min-height: 80vh;
+    background-image: url(./images/003.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.bounce-word-img {
+    object-fit: contain;
+    max-height: 20vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.css-skill-box {
+    background-image: url(./images/004.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.5;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.css-skill-box::before {
+    content: "";
+    background-image: url(./images/006.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain;
+    height: 20vh;
+    width: 100%;
+
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.css-skill-box:hover::before {
+    opacity: 1;
+}
+
+.css-skill-box p {
+    position: absolute;
+    font-size: 5vh;
+    color: white;
+    font-family: fantasy
+}
+
+.css-skill-box:hover {
+    opacity: 0.8;
+    box-shadow: inset 5px 5px #FFD700;
+    background-size: 120%;
+
+}
+
+.css-grinding-box {
+    background-color: rgba(168, 60, 240);
+    height: 30vh;
+    background-image: url(./images/001.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40%;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.css-grinding-box p {
+    position: absolute;
+    font-size: 5vh;
+    color: #ffffff;
+    font-family: fantasy
+}
+
+
+.css-grinding-box:hover {
+    opacity: 0.8;
+    box-shadow: inset 5px 5px #FFD700;
+    background-size: 60%;
+}
+
+.css-grinding-box::before {
+    content: "";
+    background-image: url(./images/006.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain;
+    height: 20vh;
+    width: 100%;
+
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.css-grinding-box:hover::before {
+    opacity: 1;
+}
