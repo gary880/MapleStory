@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    margin-bottom: 10vh;
 }
 
 
@@ -49,11 +49,12 @@
     opacity: 1;
 }
 
-.css-skill-box p {
+.css-skill-box a {
     position: absolute;
     font-size: 5vh;
     color: white;
-    font-family: fantasy
+    font-family: fantasy;
+    text-decoration: none;
 }
 
 .css-skill-box:hover {
@@ -80,11 +81,13 @@
 
 
 
-.css-grinding-box p {
+.css-grinding-box a {
     position: absolute;
     font-size: 5vh;
     color: #ffffff;
-    font-family: fantasy
+    font-family: fantasy;
+    text-decoration: none;
+
 }
 
 

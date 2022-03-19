@@ -1,0 +1,52 @@
+{
+    "skills": [
+        {
+            "id":100,
+            "skillName": "風水師",
+            "skillImg": "https://i.imgur.com/tmDbEnn.png",
+            "skillAnimation": "https://i.imgur.com/tK2WOfl.gif",
+            "skillDescription":"提升洞察力30級每5秒內使用以下技能 ，在陰陽師周邊產生靈脈[1~4轉]紫扇仰波 第三下，[2轉]陰陽除靈符（妖雲召喚）、魂之葉舞（式神炎舞），[4轉]刺刺櫻 "
+        },
+        {
+            "id":101,
+            "skillName": "靈脈的氣息",
+            "skillImg": "https://i.imgur.com/GJfVrRj.png",
+            "skillAnimation": "https://i.imgur.com/7WAD5sa.gif",
+            "skillDescription":"範圍(-110~110,-129~1)每秒追加恢復靈力30 ，在靈脈的氣息上使用結界 可吸收靈脈之力 設置更強的結界"
+        },
+        {
+            "id":102,
+            "skillName": "紫扇仰波",
+            "skillImg": "https://i.imgur.com/T9q4vHg.png",
+            "skillAnimation": "https://i.imgur.com/dhBRMCx.gif",
+            "skillDescription":"延遲360ms、360ms、480ms ， 範圍300%、300%、300% ， [1打]以150%傷害攻擊最多4位敵人2次，[2打]以150%傷害攻擊最多4位敵人2次，[3打]以180%傷害攻擊最多4位敵人2次"
+        },
+        {
+            "id":103,
+            "skillName": "鬼夜叉: 老么",
+            "skillImg": "https://i.imgur.com/UNSHEvm.png",
+            "skillAnimation": "https://i.imgur.com/MxM9ha5.gif",
+            "skillDescription":"鬼夜叉召喚期間 持續以120%傷害攻擊6名敵人4次(擊退效果)，再次使用技能 鬼夜叉立即召回 並對周圍以350%的傷害進行攻擊"
+        }, {
+            "id":104,
+            "skillName": "陰陽道",
+            "skillImg": "https://i.imgur.com/Zbnuinp.png",
+            "skillAnimation": "https://i.imgur.com/GNz2TIg.gif",
+            "skillDescription":"智力+40、防禦力+400"
+        }, {
+            "id":105,
+            "skillName": "花狐的同行・貳",
+            "skillImg": "https://i.imgur.com/grz5Sso.png",
+            "skillAnimation": "https://i.imgur.com/Eqi5xh7.gif",
+            "skillDescription":"移速+20、幸運+30，花狐裝備扇子之潛在能力和附加潛在能力的力量、敏捷、智力、幸運 以相同數值增加到陰陽師能力值"
+
+        }, {
+            "id":106,
+            "skillName": "靈脈轉移",
+            "skillImg": "https://i.imgur.com/H6M9cxZ.png",
+            "skillAnimation": "https://i.imgur.com/8MoVkee.gif",
+            "skillDescription":"增加機動性、降低移動距離[一般移動]配合方向鍵使用技能 直線瞬移距離為左右300上下400，[靈脈移動]產生靈脈時 使用技能瞬移至其中一個靈脈位置，[隨機移動]在村莊中 消耗靈力20 隨機移動位置"
+        }
+
+    ]
+}

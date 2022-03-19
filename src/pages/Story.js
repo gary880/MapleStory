@@ -4,31 +4,29 @@ import './Story.css';
 
 
 
-const Story = () =>{
+const Story = () => {
 
-    const [click, setClick] = useState(false);
+  const [click, setClick] = useState(false);
 
-    const clickHandler = () => {
-      setClick(!click);
-    }
+  const clickHandler = () => {
+    setClick(!click);
+  }
 
-    return(
-        
-      <div className='css-story'>
+  return (
+
+    <div className='css-story'>
       <span className={click ? 'css-inner-story active' : 'css-inner-story'}>
-        After years of turmoil, Oda Nobunaga finally seized control of Japan, but his desire for power only grew. He sought immortality, and the temple of Honnou-Ji would bring it to him.
-        He prepared an ancient ritual of reincarnation that would see him reborn as The Sixth Sky Demon King, but word of the ritual got out, and the feudal lords stormed Honnou-ji to stop
-        Nobunaga while it was still possible. In the end, a young Spirit Walker named Kanna disrupted the ritual, and the would-be dark lord's plans crumbled around him.
-        <br />
-        <br />
-        But victory came at a cost. Just as the ritual was disrupted, a great pillar of light lurched forth from the temple and transported everyone to a strange world. Now, Kanna must conquer
-        this strange place and regain lost strength and allies in order to stop the dark ambitions of Nobunaga's followers!
+      (1)陰陽師是日本特色職業，種族分類屬於曉之陣，職業分類屬於法師，創角時男女皆可選擇。<br/>
+      (2)主武器是扇子(雙手武器)，副武器也是扇子(裝備在花狐身上)，而且身邊還有可愛的花狐，可以轉換成不同的型態，主屬性為智力，副屬性為幸運。<br/>
+      (3)陰陽師的角色卡：B級BOSS傷害+1%、A級BOSS傷害+2%、S級BOSS傷害+3%、SS級BOSS傷害+4%<br/>
+      (4)陰陽師沒有MP，取而代之的是使用靈力。<br/>
+      (5)傳授技能為總傷害+10%
       </span>
       <p className={click ? 'css-story-btn' : 'css-story-btn active'} onClick={clickHandler}>
-        {click ? <FiX /> : 'Story'}
+        {click ? <FiX /> : 'Introduction'}
       </p>
     </div>
-    )
+  )
 }
 
 export default Story;

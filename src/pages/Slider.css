@@ -23,5 +23,6 @@
 .carousel{
     cursor: grab;
     overflow: hidden;
+    margin-bottom: 10vh;
     
 }

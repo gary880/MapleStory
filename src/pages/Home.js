@@ -3,7 +3,7 @@ import Story from "./Story";
 import './Home.css'
 import { motion } from 'framer-motion';
 import Slider from './Slider';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,10 +28,10 @@ const Home = () => {
       <p style={{ textAlign: 'center', marginTop: '5vh', fontSize: '3vh' }}>Gallery</p>
       <Slider />
       <div className='css-skill-box'>
-        <p>技能 Skills</p>
+        <Link to="/skills">技能 Skills</Link>
       </div>
       <div className='css-grinding-box'>
-        <p>練等 Grinding</p>
+        <Link to="/skills">練等 Grinding</Link>
       </div>
     </>
   );

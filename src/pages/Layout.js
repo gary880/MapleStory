@@ -11,24 +11,24 @@ const Layout = () => {
   }
 
   return (
-    <>
-      <nav className="css-navbar">
+    <div className="navbarOuter">
+      <div className="css-hamburger" onClick={handleClick}>
+        {click ? <FiX /> : <FiMenu />}
+      </div>
+      <nav className={click? 'css-navbar active' : 'css-navbar'}>
         <div className="css-navbar-container">
-        <div className="css-hamburger" onClick={handleClick}>
-            {click ? <FiX /> : <FiMenu />}
-          </div>
-          <ul className={click? 'css-nav-menu active': 'css-nav-menu'}>
+          <ul className={click ? 'css-nav-menu active' : 'css-nav-menu'}>
             <li className="nav-item">
-            <Link className="css-title-Home" to="/">Home</Link>
+              <Link className="css-title-Home" to="/">Home</Link>
             </li>
             <li className="nav-item">
-            <Link className="css-title-Skills" to="/skills">Skills</Link>
+              <Link className="css-title-Skills" to="/skills">Skills</Link>
             </li>
           </ul>
         </div>
       </nav>
       <Outlet />
-    </>
+    </div>
   )
 };
 

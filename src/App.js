@@ -14,8 +14,8 @@ const App = () =>{
     <BrowserRouter basename="/MapleStory">
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route index element={<Home />} />
-          <Route path="skills" element={<Skills />} />
+          <Route index element={<Home/>} />
+          <Route path="skills" element={<Skills/>} />
         </Route>
       </Routes>
     </BrowserRouter>

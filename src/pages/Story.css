@@ -9,12 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .css-story-btn.active {
     color: #FFD700;
     font-size: 6vh;
     position: absolute;
-    z-index: 10;
     cursor: pointer;
     width: 60%;
     text-align: center;
@@ -22,6 +22,7 @@
 .css-story-btn{
     color: #FFD700;
     font-size: 3vh;
+   
 
 }
 .css-story-btn.active:hover{
